@@ -15,5 +15,4 @@ def gcd(n):
         if(n%i==0):
             gcd=i
         return gcd
-    
-def find_gcd(arr, n):
+

@@ -12,11 +12,27 @@ class Linkedlist:
         self.length+=1
         # return newnode
 
-def printlist(self):
-    temp= self.head
-    while(temp):
-        print(temp.value)
-        temp=temp.next
+    def append(self,value):
+        newnode=Node(value)
+        if self.length ==0:
+            self.head=self.tail=newnode
+        else:
+            self.tail.next=newnode
+            self.tail=newnode
+        self.length+=1
 
-mylinkedlist = Linkedlist([10,20,30,40])
-print(mylinkedlist.head.value)
+
+    def printlist(self):
+        temp= self.head
+        while(temp):
+            print(temp.value)
+            temp=temp.next
+
+mylinkedlist = Linkedlist(10)
+mylinkedlist.append(20)
+mylinkedlist.append(30)
+mylinkedlist.append(40)
+# mylinkedlist.printlist()
+mylinkedlist.append(50)
+mylinkedlist.printlist()
+

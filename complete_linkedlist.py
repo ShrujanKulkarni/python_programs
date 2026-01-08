@@ -18,5 +18,5 @@ def printlist(self):
         print(temp.value)
         temp=temp.next
 
-mylinkedlist = Linkedlist(10)
+mylinkedlist = Linkedlist([10,20,30,40])
 print(mylinkedlist.head.value)

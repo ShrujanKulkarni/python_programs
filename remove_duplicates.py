@@ -108,6 +108,7 @@ ll.append(2)
 ll.append(3)
 ll.append(3)
 test_remove_duplicates(ll, [1, 2, 3])
+##
 
 # Test 7: Empty list
 ll = LinkedList(None)

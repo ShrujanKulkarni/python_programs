@@ -58,6 +58,5 @@ class Solution(object):
                     node = node.next
 
         return dummy_head.next
-
-        
+ 
                 

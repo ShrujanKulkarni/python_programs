@@ -43,9 +43,6 @@ class DoublyLinkedList:
         self.head, self.tail = self.tail, self.head
                
 
-
-
-
 my_doubly_linked_list = DoublyLinkedList(1)
 my_doubly_linked_list.append(2)
 my_doubly_linked_list.append(3)

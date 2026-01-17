@@ -1062,4 +1062,4 @@ class ListUtils:
     def generate_sorted_list(size: int, min_val: int = 0, max_val: int = 100) -> SinglyLinkedList:
         """Generate sorted linked list"""
         ll = SinglyLinkedList()
-        values = sorted([random.randint(min_val, max_val) for
+        values = sorted([random.randint(min_val, max_val)

@@ -17,3 +17,4 @@ def gcd(n):
         return gcd
 
 print("Hello, Shrujan!")
+print("\n")

@@ -57,7 +57,7 @@ class LinkedList:
                 curr=curr.next
             else:
                 prev.next=curr.next
-                curr.next=None
+                curr=None
         return dummy.next
 
 

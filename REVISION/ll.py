@@ -16,6 +16,7 @@ class LinkedList:
         while temp:
             print(temp.value)
             temp=temp.next
+        print(f"Number of nodes={self.length}")
 
     def append(self,value):
         newnode= Node(value)
@@ -26,6 +27,7 @@ class LinkedList:
         else:
             self.tail.next=newnode
             self.tail=newnode
+            self.length+=1
         return True
 
 ll=LinkedList(10)
@@ -36,5 +38,6 @@ ll.append(12)
 ll.append(13)
 ll.append(14)
 ll.printlist()
+
 
 

@@ -61,6 +61,17 @@ class LinkedList:
         return dummy.next
 
 
+
+    def middle(self):
+        s=f=self.head
+        while f and f.next:
+            s=s.next
+            f=f.next.next
+        return s.value
+
+
+
+
 if __name__ == "__main__":
     ll=LinkedList(10)
     # ll.printlist()
@@ -82,6 +93,8 @@ if __name__ == "__main__":
     # ll.remove(13)
     # ll.printlist()
 
+    # print(f"Middle node is:{ll.middle()}")
+    print("Middle node is: ",ll.middle())
 
 
 

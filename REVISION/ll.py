@@ -57,7 +57,7 @@ class LinkedList:
                 curr=curr.next
             else:
                 prev.next=curr.next
-                curr=None
+                curr=curr.next
         return dummy.next
 
 
@@ -69,6 +69,7 @@ if __name__ == "__main__":
     ll.append(12)
     ll.append(13)
     ll.append(14)
+    ll.append(13)
     ll.printlist()
 
     # print("----- After reverse -----")

@@ -78,9 +78,9 @@ if __name__ == "__main__":
     # ll.printlist()
 
 
-    print("----- After remove -----")
-    ll.remove(13)
-    ll.printlist()
+    # print("----- After remove -----")
+    # ll.remove(13)
+    # ll.printlist()
 
 
 

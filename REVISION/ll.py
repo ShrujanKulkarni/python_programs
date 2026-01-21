@@ -69,7 +69,8 @@ if __name__ == "__main__":
     ll.append(12)
     ll.append(13)
     ll.append(14)
-    ll.append(13)
+    ll.append(15)
+    ll.append(16)
     ll.printlist()
 
     # print("----- After reverse -----")

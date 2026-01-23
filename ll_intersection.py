@@ -19,3 +19,4 @@ class Solution(object):
             pa=pa.next if pa else headB
             pb=pb.next if pb else headA
         return pa 
+    

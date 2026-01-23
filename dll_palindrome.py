@@ -32,8 +32,7 @@ class DoublyLinkedList:
 
     def is_palindrome(self):
         # if self.length==0:
-        #     return False
-        
+        #     return False  
         forw=self.head
         backw=self.tail
         

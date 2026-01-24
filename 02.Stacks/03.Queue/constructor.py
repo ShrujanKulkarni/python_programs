@@ -17,5 +17,23 @@ class Queue:
             print(temp.value)
             temp=temp.next
 
-myq = Queue(9)
+    def enqueue(self,value):
+        newnode=Node(value)
+
+        if self.height==0:
+            self.first=newnode
+            self.last=newnode
+          
+        else:
+            self.last.next=newnode
+            self.last=newnode
+
+        self.height+=1
+
+
+myq = Queue(1)
+myq.printqueue()
+
+print("After enqueue")
+myq.enqueue(2)
 myq.printqueue()

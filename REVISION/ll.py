@@ -42,7 +42,6 @@ class LinkedList:
         self.head = bef
         return self.head
 
-
     def remove(self,x):
         dummy=Node(0)
         dummy.next=None

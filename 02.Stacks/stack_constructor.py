@@ -21,17 +21,32 @@ class Stack:
         newnode=Node(value)
         if self.height==0:
             self.top=newnode
-            self.height=1
+           
         else:
             newnode.next=self.top
             self.top=newnode
+        self.height+=1
 
+    def pop(self):
+        if self.height==0:
+            return None
+        else:
+            dum = self.top
+            self.top=self.top.next
+            dum.next=None
+            self.height-=1
+            return dum
+       
 
-        
-
-obj=Stack()
+obj=Stack(9)
 obj.printstack()
 
 obj.push(10)
-print("After Push")
+print("----- After Push-----")
 obj.printstack()
+
+obj.pop()
+obj.pop()
+print("----- After Pop-----")
+obj.printstack()
+

@@ -45,6 +45,7 @@ class DoublyLinkedList:
             forw=forw.next
             backw=backw.prev
         return True
+        
             
         
 

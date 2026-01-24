@@ -35,7 +35,7 @@ class Stack:
             self.top=self.top.next
             dum.next=None
             self.height-=1
-            return dum
+            return dum.value
        
 
 obj=Stack(9)
@@ -45,8 +45,10 @@ obj.push(10)
 print("----- After Push-----")
 obj.printstack()
 
-obj.pop()
-obj.pop()
+print("Popped value: ",obj.pop())
+print("Popped value: ",obj.pop())
 print("----- After Pop-----")
 obj.printstack()
+
+
 

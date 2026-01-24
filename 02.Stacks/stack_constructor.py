@@ -17,5 +17,21 @@ class Stack:
             temp=temp.next
 
 
-obj=Stack(9)
+    def push(self,value):
+        newnode=Node(value)
+        if self.height==0:
+            self.top=newnode
+            self.height=1
+        else:
+            newnode.next=self.top
+            self.top=newnode
+
+
+        
+
+obj=Stack()
+obj.printstack()
+
+obj.push(10)
+print("After Push")
 obj.printstack()

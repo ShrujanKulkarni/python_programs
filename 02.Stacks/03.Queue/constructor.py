@@ -30,7 +30,6 @@ class Queue:
 
         self.height+=1
 
-
 myq = Queue(1)
 myq.printqueue()
 

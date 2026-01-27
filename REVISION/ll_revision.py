@@ -14,8 +14,8 @@ class Linkedlist:
         temp=self.head
         while temp:
             print(temp.value)
-            # print("Length:",self.length)
             temp=temp.next
+        print("Length:",self.length)
 
     def append(self,value):
         newnode=Node(value)
@@ -34,10 +34,14 @@ class Linkedlist:
         else:
             temp=self.head
             pre=self.head
-            while temp:
+            while temp.next:
                   pre=temp
                   temp=temp.next
-            pre.next =None
+            # pre.next=None
+            self.tail=pre
+            self.tail.next=None
+
+            self.length-=1
             return temp.value
         
             

@@ -53,7 +53,6 @@ class Linkedlist:
              curr.next=prev
              prev=curr
              curr=aft
-        
         self.head=prev
 
 

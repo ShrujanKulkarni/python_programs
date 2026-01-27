@@ -68,6 +68,14 @@ class Linkedlist:
         self.length-=1
 
 
+    def middle(self):
+         s=f=self.head
+
+         while f.next and f.next.next:
+             s=s.next
+             f=f.next.next
+         return s.value
+
 
 ob= Linkedlist(10)
 # ob.printlist()
@@ -76,6 +84,12 @@ ob.append(11)
 ob.append(12)
 ob.append(13)
 ob.append(14)
+ob.append(15)
+ob.append(16)
+ob.append(17)
+ob.append(18)
+
+
 ob.printlist()
 
 # print("Popped value ",ob.pop())
@@ -89,5 +103,5 @@ ob.printlist()
 # ob.remove(11)
 # ob.printlist()
 
-
+print("Middle of linkedlist is:", ob.middle())
 

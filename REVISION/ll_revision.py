@@ -15,7 +15,7 @@ class Linkedlist:
         while temp:
             print(temp.value)
             temp=temp.next
-        print("Length:",self.length)
+        # print("Length:",self.length)
 
     def append(self,value):
         newnode=Node(value)
@@ -44,6 +44,21 @@ class Linkedlist:
             self.length-=1
             return temp.value
         
+    def reverse(self):
+ 
+        prev=None
+        curr= self.head
+        while(curr):
+             aft=curr.next
+             curr.next=prev
+             prev=curr
+             curr=aft
+        
+        self.head=prev
+
+
+    
+        
             
 
               
@@ -54,9 +69,14 @@ ob.printlist()
 print("After append")
 ob.append(11)
 ob.append(12)
+ob.append(13)
+ob.append(14)
 ob.printlist()
 
-print("Popped value ",ob.pop())
+# print("Popped value ",ob.pop())
+# ob.printlist()
+print("After reverse:")
+ob.reverse()
 ob.printlist()
 
 

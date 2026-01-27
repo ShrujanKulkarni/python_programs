@@ -70,7 +70,7 @@ class Linkedlist:
 
 
 ob= Linkedlist(10)
-ob.printlist()
+# ob.printlist()
 print("After append")
 ob.append(11)
 ob.append(12)
@@ -80,12 +80,14 @@ ob.printlist()
 
 # print("Popped value ",ob.pop())
 # ob.printlist()
+
 # print("After reverse:")
 # ob.reverse()
 # ob.printlist()
-print("After removal by value:")
-ob.remove(11)
-ob.printlist()
+
+# print("After removal by value:")
+# ob.remove(11)
+# ob.printlist()
 
 
 

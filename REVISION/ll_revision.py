@@ -55,12 +55,18 @@ class Linkedlist:
              curr=aft
         self.head=prev
 
+    def remove(self,index):
+        curr=self.head
+        temp=self.head
 
-    
-        
-            
+        while(temp.value!=index):
+            curr=temp
+            temp=temp.next             
 
-              
+        curr.next=temp.next
+        temp.next=None
+        self.length-=1
+
 
 
 ob= Linkedlist(10)
@@ -74,8 +80,11 @@ ob.printlist()
 
 # print("Popped value ",ob.pop())
 # ob.printlist()
-print("After reverse:")
-ob.reverse()
+# print("After reverse:")
+# ob.reverse()
+# ob.printlist()
+print("After removal by value:")
+ob.remove(11)
 ob.printlist()
 
 

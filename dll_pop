@@ -50,7 +50,6 @@ obj.append(4)
 print("")
 obj.printlist()
 
-
 print("After pop")
 obj.pop()
 obj.printlist()

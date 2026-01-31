@@ -7,7 +7,6 @@ class Person:
         print(f"Name is:{self.name}")
         print(f"Age is: {self.age}")
 
-
 p1= Person("Vani", 32)
 p1.printDetails()
 

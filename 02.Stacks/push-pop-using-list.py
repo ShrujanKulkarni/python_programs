@@ -45,19 +45,3 @@ print(my_stack.pop())
 print("\nStack after pop():")
 my_stack.print_stack()
 
-"""
-    EXPECTED OUTPUT:
-    ----------------
-    Stack before pop():
-    3
-    2
-    1
-    
-    Popped node:
-    3
-    
-    Stack after pop():
-    2
-    1
- 
-"""

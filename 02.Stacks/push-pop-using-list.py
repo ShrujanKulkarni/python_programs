@@ -45,8 +45,6 @@ print(my_stack.pop())
 print("\nStack after pop():")
 my_stack.print_stack()
 
-
-
 """
     EXPECTED OUTPUT:
     ----------------

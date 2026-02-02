@@ -12,3 +12,5 @@ p1.printDetails()
 
 p2=Person("SK",34)
 p2.printDetails()
+
+

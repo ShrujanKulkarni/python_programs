@@ -27,10 +27,7 @@ class Stack:
         else:
             return self.stack_list.pop()
         
- 
-            
-            
-            
+           
 my_stack = Stack()
 my_stack.push(1)
 my_stack.push(2)

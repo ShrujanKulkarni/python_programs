@@ -20,9 +20,6 @@ class LinkedList:
             self.tail = new_node
         return True
   
-
-  
- 
 def find_kth_from_end(ll, k):
         slow = fast = ll.head   
         for _ in range(k):

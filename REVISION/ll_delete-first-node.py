@@ -42,7 +42,6 @@ class LinkedList:
                 
         
 
-
 # Driver
 ll = LinkedList([1, 2, 3, 2])
 ll.print_list()

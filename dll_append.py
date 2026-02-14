@@ -14,8 +14,7 @@ class Dll:
         temp=self.head
         while(temp is not None):
             print(temp.value)
-            temp=temp.next
-            
+            temp=temp.next         
             
     def append(self,value):
         newnode=Node(value)

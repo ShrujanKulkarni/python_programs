@@ -55,5 +55,3 @@ print("----------After Pop()----------")
 popvalue= mylinkedlist.pop()
 mylinkedlist.printlist()
 print(f"\nPopped values is:{popvalue}")
-
-

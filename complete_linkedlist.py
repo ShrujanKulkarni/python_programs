@@ -10,7 +10,6 @@ class Linkedlist:
         self.head=newnode
         self.tail=newnode
         self.length+=1
-        # return newnode
 
     def append(self,value):
         newnode=Node(value)
@@ -20,7 +19,6 @@ class Linkedlist:
             self.tail.next=newnode
             self.tail=newnode
         self.length+=1
-
 
     def printlist(self):
         temp= self.head

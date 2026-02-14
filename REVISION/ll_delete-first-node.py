@@ -38,9 +38,6 @@ class LinkedList:
 
      self.head = dummy.next
                 
-                
-                
-        
 
 # Driver
 ll = LinkedList([1, 2, 3, 2])

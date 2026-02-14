@@ -3,6 +3,7 @@ class Node:
         self.value= value
         self.next= None
         self.prev= None
+        
 class Dll:
     def __init__(self,value):
         newnode=Node(value)

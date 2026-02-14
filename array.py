@@ -15,7 +15,6 @@ class Stack:
         for x in self.stack_list:
             print(x)
     
-
 obj = Stack()
 obj.push(10)
 obj.push(11)
@@ -28,8 +27,6 @@ obj.printlist()
 
 # print("----After Pop----")
 # obj.printlist()
-
-
 print("Insert at index")
 obj.push_index(2,50)
 print("----After push at index 2 ----")

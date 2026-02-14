@@ -3,7 +3,6 @@ class Node:
         self.value = value
         self.next = None
         
-
 class LinkedList:
     def __init__(self, value):
         new_node = Node(value)
@@ -38,6 +37,7 @@ my_linked_list.append(2)
 my_linked_list.append(3)
 my_linked_list.append(4)
 my_linked_list.append(5)
+
 
 k = 2
 result = find_kth_from_end(my_linked_list, k)

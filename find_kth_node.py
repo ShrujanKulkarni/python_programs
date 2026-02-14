@@ -28,8 +28,7 @@ def find_kth_from_end(ll, k):
      
         while fast:
             slow = slow.next
-            fast = fast.next
-            
+            fast = fast.next       
         return slow
 
 my_linked_list = LinkedList(1)

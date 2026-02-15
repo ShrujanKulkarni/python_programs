@@ -17,7 +17,6 @@ class DoublyLinkedList:
             print(curr.value)
             curr=curr.next
 
-
 dll=DoublyLinkedList(9)
 dll.printlist()
 

@@ -15,7 +15,7 @@ class Linkedlist:
         while temp:
             print(temp.value)
             temp=temp.next
-        print(f"Length= {self.height}")
+        # print(f"Length= {self.height}")
 
 
     def append(self,value):
@@ -53,7 +53,7 @@ class Linkedlist:
             bef=curr
             curr=curr.next
         self.head=bef
-        return 
+
 
 
 
@@ -67,12 +67,13 @@ myobj.append(13)
 myobj.printlist()
 
 
-print("---- Added Pop----")
-myobj.pop()
+# print("---- Added Pop----")
+# myobj.pop()
+# myobj.printlist()
+
+
+print("---- after Reverse ---- ")
+myobj.reverse()
 myobj.printlist()
-
-
-
-
 
 

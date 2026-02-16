@@ -51,7 +51,7 @@ class Linkedlist:
             aft=curr.next
             curr.next=bef
             bef=curr
-            curr=curr.next
+            curr=aft
         self.head=bef
 
 
@@ -65,7 +65,7 @@ myobj.append(11)
 myobj.append(12)
 myobj.append(13)
 myobj.printlist()
-
+# 
 
 # print("---- Added Pop----")
 # myobj.pop()

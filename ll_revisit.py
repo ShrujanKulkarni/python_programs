@@ -28,13 +28,36 @@ class Linkedlist:
             newnode=Node(value)
             self.tail.next=newnode
             self.tail=newnode
+            self.height+=1
+
+    def pop(self):
+        if self.height==0:
+            print("No item to be popped")
+            return
+        else:
+            p=None
+            t = self.head
+            while t.next:
+                p=t
+                t=t.next
+            p.next=None
+            self.tail=p
+            self.height-=1
 
 
 myobj=Linkedlist(10)
-myobj.printlist()
+# myobj.printlist()
 
-print("---- Added Append")
+print("---- Added Append----")
 myobj.append(11)
 myobj.append(12)
 myobj.append(13)
 myobj.printlist()
+
+
+print("---- Added Pop----")
+myobj.pop()
+myobj.printlist()
+
+
+

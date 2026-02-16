@@ -28,7 +28,13 @@ class Linkedlist:
             newnode=Node(value)
             self.tail.next=newnode
             self.tail=newnode
-            
+
 
 myobj=Linkedlist(10)
+myobj.printlist()
+
+print("---- Added Append")
+myobj.append(11)
+myobj.append(12)
+myobj.append(13)
 myobj.printlist()

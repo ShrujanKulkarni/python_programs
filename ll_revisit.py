@@ -16,3 +16,6 @@ class Linkedlist:
             print(temp.value)
             temp=temp.next
         print(f"Length= {self.height}")
+
+myobj=Linkedlist(10)
+myobj.printlist()

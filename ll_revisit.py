@@ -9,3 +9,10 @@ class Linkedlist:
         self.head=newnode
         self.tail=newnode
         self.height=1
+
+    def printlist(self):
+        temp=self.head
+        while temp:
+            print(temp.value)
+            temp=temp.next
+        print(f"Length= {self.height}")

@@ -44,6 +44,18 @@ class Linkedlist:
             self.tail=p
             self.height-=1
 
+    def reverse(self):
+        bef=None
+        curr= self.head
+        while curr:
+            aft=curr.next
+            curr.next=bef
+            bef=curr
+            curr=curr.next
+        self.head=bef
+        return 
+
+
 
 myobj=Linkedlist(10)
 # myobj.printlist()
@@ -58,6 +70,9 @@ myobj.printlist()
 print("---- Added Pop----")
 myobj.pop()
 myobj.printlist()
+
+
+
 
 
 

@@ -54,9 +54,6 @@ class Linkedlist:
             curr=aft
         self.head=bef
 
-
-
-
 myobj=Linkedlist(10)
 # myobj.printlist()
 

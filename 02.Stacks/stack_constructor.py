@@ -47,6 +47,3 @@ print("Popped value: ",obj.pop())
 print("Popped value: ",obj.pop())
 print("----- After Pop-----")
 obj.printstack()
-
-
-

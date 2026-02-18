@@ -16,5 +16,13 @@ class Stack:
             t=t.next
     def push(self, value):
         newnode=Node(value)
+        newnode.next=self.top
+        self.top=newnode
+      
+        
+        
+        
 myobj=Stack(10)
+myobj.push(20)
+myobj.push(30)
 myobj.printstack()

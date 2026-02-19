@@ -36,6 +36,7 @@ class Stack:
             return dum.value
        
 
+
 obj=Stack(9)
 obj.printstack()
 

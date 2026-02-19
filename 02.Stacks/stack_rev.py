@@ -25,7 +25,6 @@ class Stack:
         t.next=None
         return 1
         
-        
 myobj=Stack(10)
 myobj.push(20)
 myobj.push(30)

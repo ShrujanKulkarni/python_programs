@@ -2,7 +2,7 @@ class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
-
+        
 class LinkedList:
     def __init__(self, values):
         self.head = None
@@ -23,9 +23,7 @@ class LinkedList:
         print("None")
 
     def reverse(self):
-        # WRITE LOGIC HERE AT HOME
-        
-        
+        # WRITE LOGIC HERE AT HOME  
         prev=None
         curr=self.head
         

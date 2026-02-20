@@ -22,8 +22,7 @@ class LinkedList:
             curr = curr.next
         print("None")
 
-    def reverse(self):
-        # WRITE LOGIC HERE AT HOME  
+    def reverse(self): 
         prev=None
         curr=self.head
         

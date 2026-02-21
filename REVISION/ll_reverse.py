@@ -33,7 +33,6 @@ class LinkedList:
         self.head= prev
         return self.head
         
-# Driver code
 ll = LinkedList([1, 2, 3, 4])
 ll.print_list()
 ll.reverse()

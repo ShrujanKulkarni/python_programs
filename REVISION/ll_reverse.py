@@ -24,8 +24,7 @@ class LinkedList:
 
     def reverse(self): 
         prev=None
-        curr=self.head
-        
+        curr=self.head       
         while curr:
             aft=curr.next
             curr.next=prev

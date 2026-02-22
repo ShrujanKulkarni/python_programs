@@ -33,7 +33,7 @@ class LinkedList:
         self.head= prev
         return self.head
         
-ll = LinkedList([1, 2, 3, 4, 5])
+ll = LinkedList([1, 2, 3, 4, 5, 6])
 ll.print_list()
 ll.reverse()
 ll.print_list()

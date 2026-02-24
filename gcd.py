@@ -2,7 +2,6 @@
 # find the GCD of all the array elements.
 
 '''
-Docstring for gcd
 Example :
 
 Input: n = 3, arr = [1, 2, 3]

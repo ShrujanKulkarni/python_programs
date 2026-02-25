@@ -19,5 +19,3 @@ class DoublyLinkedList:
 
 dll=DoublyLinkedList(9)
 dll.printlist()
-
-

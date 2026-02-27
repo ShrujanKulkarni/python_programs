@@ -8,7 +8,6 @@ class Solution:
         # Dummy node (not part of result)
         dummy = ListNode(0)
         current = dummy
-
         carry = 0
 
         # Loop until both lists and carry are exhausted

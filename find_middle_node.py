@@ -19,7 +19,6 @@ class LinkedList:
             self.tail = new_node
         return True
         
-
     def find_middle_node(self):
         slow = self.head
         fast = self.head

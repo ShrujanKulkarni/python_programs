@@ -22,7 +22,6 @@ obj.push(11)
 print("After push")
 obj.printlist()
 
-# obj.pop()
 # print("----After Pop----")
 # obj.printlist()
 

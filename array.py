@@ -19,7 +19,7 @@ obj = Stack()
 obj.push(10)
 obj.push(11)
 # obj.push(12)
-print("----After push----")
+print("After push")
 obj.printlist()
 
 # obj.pop()

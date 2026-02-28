@@ -23,7 +23,6 @@ print("After push")
 obj.printlist()
 
 # obj.pop()
-# obj.pop()
 # print("----After Pop----")
 # obj.printlist()
 

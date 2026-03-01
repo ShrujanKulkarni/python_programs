@@ -15,8 +15,8 @@ Output: [1,2,3,4,5]
 Example 2:
 Input: head = [], val = 1
 Output: []
-Example 3:
 
+Example 3:
 Input: head = [7,7,7,7], val = 7
 Output: []
  

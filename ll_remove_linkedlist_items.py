@@ -1,6 +1,5 @@
 '''
-Docstring for ll_remove_linkedlist_items
-203. Remove Linked List Elements
+Remove Linked List Elements
 Easy
 Topics
 premium lock icon

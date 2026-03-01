@@ -31,7 +31,6 @@ class Node:
     def __str__(self):
         return str(self.value)
 
-
 class DoublyNode:
     """Node for doubly linked list with prev and next pointers"""
     def __init__(self, value: Any):

@@ -4,6 +4,7 @@ class Node:
         self.next=None
         self.prev=None
 
+
 class DoublyLinkedList:
     def __init__(self,value):
         newnode=Node(value)
@@ -11,11 +12,13 @@ class DoublyLinkedList:
         self.tail=newnode
         self.length=1
 
+
     def printlist(self):
         curr=self.head
         while curr is not None:
             print(curr.value)
             curr=curr.next
+
 
 dll=DoublyLinkedList(9)
 dll.printlist()

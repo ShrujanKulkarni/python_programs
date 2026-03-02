@@ -4,7 +4,6 @@ class Node:
         self.next=None
 
 
-
 class Queue:
     def __init__(self,value):
         newnode= Node(value)
@@ -12,11 +11,14 @@ class Queue:
         self.last=newnode
         self.length=1
 
+
+
     def printlist(self):
         temp=self.first
         while temp:
             print(temp.value)
             temp=temp.next
 
-            
 
+myobj=Queue(10)
+myobj.printlist()

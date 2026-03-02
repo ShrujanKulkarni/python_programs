@@ -12,4 +12,11 @@ class Queue:
         self.last=newnode
         self.length=1
 
-        
+    def printlist(self):
+        temp=self.first
+        while temp:
+            print(temp.value)
+            temp=temp.next
+
+            
+

@@ -3,21 +3,20 @@ class Node:
         self.value= value
         self.next= None
         self.prev= None
+        
 class Dll:
     def __init__(self,value):
         newnode=Node(value)
         self.head=newnode
         self.tail=newnode
         self.length=1
-        
-        
+             
     def printlist(self):
         temp=self.head
         while(temp is not None):
             print(temp.value)
             temp=temp.next
-            
-            
+                     
     def append(self,value):
         newnode=Node(value)
         if self.tail==None:

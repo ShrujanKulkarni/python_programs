@@ -8,7 +8,6 @@ class LinkedList:
         new_node = Node(value)
         self.head = new_node
         self.tail = new_node
-
         
     def append(self, value):
         new_node = Node(value)
@@ -20,7 +19,6 @@ class LinkedList:
             self.tail = new_node
         return True
         
-
     def find_middle_node(self):
         slow = self.head
         fast = self.head

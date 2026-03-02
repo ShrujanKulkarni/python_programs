@@ -4,7 +4,6 @@ class Node:
         self.next = None
         self.prev = None
         
-
 class DoublyLinkedList:
     def __init__(self, value):
         new_node = Node(value)
@@ -47,10 +46,6 @@ class DoublyLinkedList:
         
             
         
-
-
-
-
 my_dll_1 = DoublyLinkedList(1)
 my_dll_1.append(2)
 my_dll_1.append(3)

@@ -16,7 +16,7 @@ class LinkedList:
         while temp:
             print(temp.value)
             temp=temp.next
-        # print(f"Number of nodes={self.length}")
+    
 
     def append(self,value):
         newnode= Node(value)

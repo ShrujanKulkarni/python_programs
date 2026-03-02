@@ -3,13 +3,11 @@ class ListNode:
         self.val = val
         self.next = next
 
-
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         # Dummy node (not part of result)
         dummy = ListNode(0)
         current = dummy
-
         carry = 0
 
         # Loop until both lists and carry are exhausted

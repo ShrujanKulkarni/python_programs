@@ -2,8 +2,7 @@ class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
-
-
+        
 class LinkedList:
     def __init__(self, values):
         self.head = None
@@ -23,13 +22,9 @@ class LinkedList:
             curr = curr.next
         print("None")
 
-    def reverse(self):
-        # WRITE LOGIC HERE AT HOME
-        
-        
+    def reverse(self): 
         prev=None
-        curr=self.head
-        
+        curr=self.head       
         while curr:
             aft=curr.next
             curr.next=prev
@@ -38,8 +33,7 @@ class LinkedList:
         self.head= prev
         return self.head
         
-# Driver code
-ll = LinkedList([1, 2, 3, 4])
+ll = LinkedList([1, 2, 3, 4, 5, 6])
 ll.print_list()
 ll.reverse()
 ll.print_list()

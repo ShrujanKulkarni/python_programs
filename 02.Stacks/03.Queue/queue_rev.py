@@ -21,8 +21,9 @@ class Queue:
     
 
     def enqueue(self,value):
+        newnode=Node(value)
         if self.length==0:
-            newnode=Node(value)
+
             self.first=newnode
             self.last=newnode
         else:
@@ -35,7 +36,7 @@ class Queue:
 
 
 
-myobj=Queue(101)
+myobj=Queue(10)
 myobj.printlist()
 
 print("--- After Enqueue --- ")

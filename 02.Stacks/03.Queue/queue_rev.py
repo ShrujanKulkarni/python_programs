@@ -20,5 +20,5 @@ class Queue:
             temp=temp.next
 
 
-myobj=Queue(10)
+myobj=Queue(101)
 myobj.printlist()

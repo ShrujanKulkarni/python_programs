@@ -48,8 +48,6 @@ class Queue:
         
 
 
-
-
 myobj=Queue(10)
 myobj.printlist()
 

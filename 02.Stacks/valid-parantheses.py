@@ -11,7 +11,6 @@ def is_valid_parentheses(s):
 
     return len(stack) == 0
 
-
 # -------- Driver code --------
 tests = ["()", "(())", "())", "(()", "", "()()"]
 

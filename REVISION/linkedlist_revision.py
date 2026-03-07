@@ -15,7 +15,7 @@ class Linkedlist:
         while temp:
             print(temp.value)
             temp=temp.next
-        # print("Length:",self.length)
+
 
     def append(self,value):
         newnode=Node(value)

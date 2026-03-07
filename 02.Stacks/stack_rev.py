@@ -31,7 +31,6 @@ myobj.push(30)
 
 print ("After push")
 myobj.printstack()
-
 print ("after pop")
 myobj.pop()
 myobj.printstack()

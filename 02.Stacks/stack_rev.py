@@ -23,8 +23,7 @@ class Stack:
         t=self.top
         self.top=self.top.next
         t.next=None
-        return 1
-        
+        return 1   
         
 myobj=Stack(10)
 myobj.push(20)

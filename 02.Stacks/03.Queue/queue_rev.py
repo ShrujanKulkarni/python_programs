@@ -3,7 +3,6 @@ class Node:
         self.value=value
         self.next=None
 
-
 class Queue:
     def __init__(self,value):
         newnode= Node(value)
@@ -36,13 +35,10 @@ class Queue:
         elif self.length==1:
             self.first=None
             self.last=None
-
         else:
             self.first=self.first.next
             temp.next=None
             self.length-=1
-        
-
 
 myobj=Queue(10)
 myobj.printlist()
@@ -58,4 +54,3 @@ print("--- After Dequeue --- ")
 myobj.dequeue()
 # myobj.dequeue()
 myobj.printlist()
-

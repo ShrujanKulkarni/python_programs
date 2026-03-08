@@ -37,7 +37,6 @@ class Linkedlist:
             while temp.next:
                   pre=temp
                   temp=temp.next
-            # pre.next=None
             self.tail=pre
             self.tail.next=None
 

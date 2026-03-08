@@ -66,7 +66,6 @@ class Linkedlist:
         temp.next=None
         self.length-=1
 
-
     def middle(self):
          s=f=self.head
 

@@ -25,7 +25,7 @@ def find_kth_from_end(ll, k):
             if fast is None:
                 return None
             fast = fast.next
-    
+
         while fast:
             slow = slow.next
             fast = fast.next       

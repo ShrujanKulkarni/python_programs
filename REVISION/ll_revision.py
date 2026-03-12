@@ -3,7 +3,6 @@ class Node:
         self.value=value
         self.next=None
 
-
 class Linkedlist:
     def __init__(self,value):
         newnode=Node(value)

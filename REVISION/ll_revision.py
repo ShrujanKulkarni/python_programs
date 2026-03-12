@@ -100,7 +100,6 @@ ob.printlist()
 # ob.printlist()
 
 # print("After removal by value:")
-# ob.remove(11)
 
 
 print("Middle of linkedlist is:", ob.middle())

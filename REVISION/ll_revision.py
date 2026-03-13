@@ -89,7 +89,6 @@ ob.append(16)
 ob.append(17)
 ob.append(18)
 
-
 ob.printlist()
 
 # ob.printlist()

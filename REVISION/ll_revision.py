@@ -92,7 +92,7 @@ ob.append(18)
 
 ob.printlist()
 
-# print("Popped value ",ob.pop())
+
 # ob.printlist()
 
 # print("After reverse:")

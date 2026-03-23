@@ -14,5 +14,6 @@ def is_valid_parentheses(s):
 tests = ["()", "(())", "())", "(()", "", "()()"]
 
 
+
 for t in tests:
     print(f"{t} -> {is_valid_parentheses(t)}")

@@ -28,6 +28,7 @@ class Dll:
             self.tail=newnode
         self.length+=1
         
+        
     def pop(self):
         temp= self.tail
         if self.length==0:

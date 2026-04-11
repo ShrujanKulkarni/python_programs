@@ -24,6 +24,7 @@ obj.push(11)
 print("After push")
 obj.printlist()
 
+
 # print("----After Pop----")
 print("Insert at index")
 obj.push_index(2,50)

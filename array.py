@@ -10,12 +10,15 @@ class Stack:
     def push_index(self,index,value):
         self.stack_list.insert(index,value)
     
+    
     def pop(self):
         self.stack_list.pop()
+
 
     def printlist(self):
         for x in self.stack_list:
             print(x)
+            
     
 obj = Stack()
 obj.push(10)

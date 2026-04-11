@@ -6,7 +6,6 @@ class Stack:
     def push(self,value):
         self.stack_list.append(value)
 
-
     def push_index(self,index,value):
         self.stack_list.insert(index,value)
     

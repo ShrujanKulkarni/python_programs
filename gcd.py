@@ -3,7 +3,7 @@
 
 '''
 Input: n = 3, arr = [1, 2, 3]
-Output: 1
+Output: 1  
 Explanation: GCD of 1,2,3 is 1.
 '''
 

@@ -11,7 +11,6 @@ class DoublyLinkedList:
         self.tail=newnode
         self.length=1
 
-
     def printlist(self):
         curr=self.head
         while curr is not None:

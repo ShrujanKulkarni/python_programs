@@ -6,7 +6,6 @@ Input: n = 3, arr = [1, 2, 3]
 Output: 1  
 Explanation: GCD of 1,2,3 is 1.
 '''
-
 def gcd(n):
     for i in range(1,n):
         if(n%i==0):
